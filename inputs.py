@@ -1,6 +1,7 @@
-# nome = input('Qual o seu nome? ')
-# print(f'O seu nome é {nome}')
-
+nome = input('Qual o seu nome? ')
+print(f'Seja bem-vindo {nome}', end='\n')
+print('===================================')
+print('Agora por favor...', end='\n')
 numero_1 = input("Digite um número: ")
 numero_2 = input("Digite outro número: ")
 
