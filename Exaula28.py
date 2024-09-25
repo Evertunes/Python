@@ -14,20 +14,34 @@ Se nada for digitado em nome ou idade:
     exiba "Desculpe, você deixou campos vazios."
 """
 
-nome = input ('Digite seu nome: \n')
-print(16*'-')
-idade = input ('Digite sua idade: \n')
-print(16*'-')
+nome = input("Digite seu nome: \n")
+print(16 * "-")
+idade = input("Digite sua idade: \n")
+print(16 * "-")
 nomeinverte = nome[::-1]
 espaco = " "
 
-if nome != '' and idade != '':
-    print ('Nome: %s'%(nome))
-    print(16*'=')
-    print ('Nome invertido: %s ' % (nomeinverte))
-    print(16*'=')
+if nome != "" and idade != "":
+
+    primeira = nome[0]
+    ultima = nome[0 : len(nome) : 1]
+
+    print("Nome: %s" % (nome))
+    print(16 * "=")
+    print("Nome invertido: %s " % (nomeinverte))
+    print(16 * "=")
+
     if espaco in nome:
         print("Tem espaços no seu nome!")
     else:
         print("Seu nome não possui espaços!")
 
+    print(16 * "-")
+    print("Seu nome tem: ", len(nome), " caracteres!")
+    print(16 * "-")
+    print("A primeira letra do seu nome é: %s" % (primeira))
+    print(16 * "-")
+    print("A útima letra do seu nome é: %s" % (ultima))
+
+else:
+    print("Desculpe, voce deixou campos vazios...")
