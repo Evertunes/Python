@@ -15,9 +15,19 @@ Se nada for digitado em nome ou idade:
 """
 
 nome = input ('Digite seu nome: \n')
+print(16*'-')
 idade = input ('Digite sua idade: \n')
+print(16*'-')
 nomeinverte = nome[::-1]
+espaco = " "
 
 if nome != '' and idade != '':
     print ('Nome: %s'%(nome))
+    print(16*'=')
     print ('Nome invertido: %s ' % (nomeinverte))
+    print(16*'=')
+    if espaco in nome:
+        print("Tem espaços no seu nome!")
+    else:
+        print("Seu nome não possui espaços!")
+
