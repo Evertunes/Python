@@ -16,5 +16,8 @@ Se nada for digitado em nome ou idade:
 
 nome = input ('Digite seu nome: \n')
 idade = input ('Digite sua idade: \n')
+nomeinverte = nome[::-1]
 
-verifica = 
+if nome != '' and idade != '':
+    print ('Nome: %s'%(nome))
+    print ('Nome invertido: %s ' % (nomeinverte))
