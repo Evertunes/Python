@@ -24,7 +24,7 @@ espaco = " "
 if nome != "" and idade != "":
 
     primeira = nome[0]
-    ultima = nome[0 : len(nome) : 1]
+    ultima = nome[-1]
 
     print("Nome: %s" % (nome))
     print(16 * "=")
