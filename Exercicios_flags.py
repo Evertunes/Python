@@ -35,17 +35,34 @@ except:
     print('Isso não é um número')
 """
 #----------------------------------------------------------------------------------------------
+"""
+entrada = input('Digite a hora em números inteiros: ')
 
-data_entrada = input ("Digite a data atual: ")
-data = [entrada[]]
 try:
-    data = int(data)
-    
-    if(data >= 0 and data <= 11):
-        print("Bom dia!")
-    if(data >= 12 and data <= 17):
-        print("Boa tarde!")
-    if(data >= 18 and data <= 23):
-        print("Boa noite!")
+    hora = int(entrada) #converte o input str em inteiro
+
+    if hora >= 0 and hora <= 11:
+        print('Bom dia')
+    elif hora >= 12 and hora <= 17:
+        print('Bom tarde')
+    elif hora >= 18 and hora <= 23:
+        print('Bom noite')
+    else:
+        print('Não conheço essa hora')
 except:
-    print("Data Inválida!")
+    print('Por favor, digite apenas números inteiros')
+"""
+#----------------------------------------------------------------------------------------------
+
+nome = input('Digite seu nome: ')
+tamanho_nome = len(nome) #faz a contagem de caracteres
+
+if tamanho_nome > 1:
+    if tamanho_nome <= 4:
+        print('Seu nome é curto')
+    elif tamanho_nome >= 5 and tamanho_nome <= 6:
+        print('Seu nome é normal')
+    else:
+        print('Seu nome é muito grande')
+else:
+    print('Digite mais de uma letra.')
