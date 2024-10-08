@@ -43,8 +43,7 @@ while contador <= 10:
     
     if contador == 6:
         print('Não vou mostrar o 6.')
-        continue
-    #codigo abaixo do continue não sera executado
+        continue #pula o numero 6 e vota no while
     
     print (contador)    
     
