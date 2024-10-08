@@ -4,6 +4,8 @@ while True:
     numero_2 = input('Digite outro número: ')
     operador = input('Digite o operador (+-/*): ')
     numeros_validos = None
+    num1_float = 0
+    num2_float = 0
     
     #validação se o número é valido, senão o "continue" volta no começo para receber um ou mais numeros validos
     try:
@@ -26,6 +28,19 @@ while True:
     if len(operador) > 1:
         print('Digite apenas um operador!')
         continue
+    
+    print('Realizando sua conta. confira o resultado abaixo: ')
+    
+    if operador == '+':
+        print(num1_float + num2_float)
+    elif operador == '-':
+        print(num1_float - num2_float)
+    elif operador == '/':
+        print(num1_float / num2_float)
+    elif operador == '*':
+        print(num1_float * num2_float)
+    else:
+        print('Nunca deveria chegar aqui.')
     
     sair = input('Quer sair? [s]im: ').lower().startswith('s')#retorna a mesma string eniada em sair em letra minuscula/startswitch verifica que o que a pessoa digitou começa com a letra desejada
     
