@@ -12,4 +12,4 @@ while linha <= qtde_linhas:
 
     linha += 1
 
-print("Acabou")
+print('Acabou')

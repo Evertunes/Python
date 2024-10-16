@@ -1,4 +1,4 @@
-"""
+'''
 Fatiamento de strings
 012345678
 Olá mundo
@@ -6,7 +6,7 @@ Olá mundo
 Fatiamento [i:f:p] [::]
 Obs.: a função len retorna a qtd 
 de caracteres da str
-"""
+'''
 
 #escreve de tras pra frente
 variavel = 'Ola Mundo'

@@ -1,4 +1,4 @@
-string = " everton alves"
+string = ' everton alves'
 
 #outra_variavel = f'{string[:3]}ABC{string[4:1]}'
 #print(string)

@@ -1,10 +1,10 @@
-"""
+'''
     Repetições
     While(enquanto)
     Exeuta uma ação enquanto uma condição for verdadeira
     
-"""
-"""
+'''
+'''
 while condicao:
     nome = input('Qual o seu nome: \n')
     print('------------------')
@@ -15,8 +15,8 @@ while condicao:
         break
 
 print('Acabou')
-"""
-"""
+'''
+'''
 contador = 0
 
 while contador < 10:
@@ -25,17 +25,17 @@ while contador < 10:
     
 print('ACABOU')
 
-"""    
+'''    
 
 #--------------------------------------------------------------------------
 
-"""
+'''
     
     Operadores de atribuição
     
     = += -= *= /= //= **= %=
     
-"""
+'''
 
 contador = 0
 while contador <= 10:

@@ -1,4 +1,4 @@
-"""Calculadora com while"""
+'''Calculadora com while'''
 while True:
     numero_1 = input('Digite um número: ')
     numero_2 = input('Digite outro número: ')
@@ -7,7 +7,7 @@ while True:
     num1_float = 0
     num2_float = 0
     
-    #validação se o número é valido, senão o "continue" volta no começo para receber um ou mais numeros validos
+    #validação se o número é valido, senão o 'continue' volta no começo para receber um ou mais numeros validos
     try:
         num1_float = float(numero_1)
         num2_float = float(numero_2)

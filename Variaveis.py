@@ -1,4 +1,4 @@
-nome_completo = "Everton Alves"  # crio uma variavel
+nome_completo = 'Everton Alves'  # crio uma variavel
 soma_dois_mais_dois = 2 + 2  # crio uma variavel
 print(nome_completo, soma_dois_mais_dois)  # exibo uma variavel
 

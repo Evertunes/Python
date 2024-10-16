@@ -1,4 +1,4 @@
-entrada = input ('Voce que "entrar" ou "sair"?''\n')
+entrada = input ('Voce que 'entrar' ou 'sair'?''\n')
 
 if entrada == 'entrar':
     print ('-----------------------')

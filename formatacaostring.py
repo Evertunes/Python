@@ -1,4 +1,4 @@
-"""
+'''
 Formatação básica de strings
 s - string
 d - int
@@ -13,7 +13,7 @@ x ou X - Hexadecimal
 Sinal - + ou -
 Ex.: 0>-100,.1f
 Conversion flags - !r !s !a 
-"""
+'''
 variavel = 'ABC'
 print(f'{variavel}')
 print(f'{variavel: >10}')
